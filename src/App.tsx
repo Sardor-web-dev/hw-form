@@ -14,8 +14,8 @@ function App() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log("Форма отправлена:", data);
+  const onSubmit = (form) => {
+    console.log("Форма отправлена:", form);
   };
 
   return (
